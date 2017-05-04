@@ -11,6 +11,11 @@ body {
   width: 100%;
 }
 
+.description {
+  text-align: center;
+  color: white;
+}
+
 #record-image {
   width: 100%;
 }

@@ -1,10 +1,10 @@
-var recordplayerdiv = document.getElementById("record-player-div");
-var recordwithplayer = document.getElementById("record-image__hover");
+var recordPlayerDiv = document.getElementById("record-player-div");
+var recordWithPlayer= document.getElementById("record-image__hover");
 
-recordplayerdiv.onmouseover = function() {
-  recordwithplayer.style.display = "block";
+recordPlayerDiv.onmouseover = function() {
+  recordWithPlayer.style.display = "block";
 }
 
-recordplayerdiv.onmouseout = function() {
-  recordwithplayer.style.display = "none";
+recordPlayerDiv.onmouseout = function() {
+  recordWithPlayer.style.display = "none";
 }
