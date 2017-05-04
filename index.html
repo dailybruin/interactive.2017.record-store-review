@@ -7,15 +7,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 </head>
 <body>
-  <h1>Record Story Review</h1>
+  <img id="banner" src="img/bannertitlewhite.png"/>
   <div class="description">
     insert description here
   </div>
   <div class="container">
     <div class="row">
       <div class="col-xs-3">
-        <img id="record-image" src="http://www.glumagazine.com/site/assets/files/1079/circle-2.500x500.png">
-        <p>name</p>
+        <a href="store-1.html">
+          <div id="record-player-div">
+            <img id="record-image" src="img/recordplayer.png">
+          </div>
+          <div id="record-player-hover-div">
+            <img id="record-image__hover" src="img/recordwithplayer.png">
+          </div>
+          <p id="store-name">name</p>
+        </a>
       </div>
       <div class="col-xs-3">
         <img id="record-image" src="http://www.glumagazine.com/site/assets/files/1079/circle-2.500x500.png">
@@ -40,7 +47,10 @@
     </div>
   </div>
 
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <!-- Bootstrap JS CDN -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>

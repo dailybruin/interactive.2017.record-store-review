@@ -3,6 +3,26 @@ html, body {
   height: 100%;
 }
 
+body {
+  background-image: url("../img/woodgrain.png");
+}
+
+#banner {
+  width: 100%;
+}
+
 #record-image {
   width: 100%;
+}
+
+#record-image__hover {
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: none;
+}
+
+#store-name {
+  text-align: center;
 }
