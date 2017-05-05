@@ -24,16 +24,8 @@ body {
   text-align: center;
 }
 
-#record-image {
+.record-image {
   width: 100%;
-}
-
-#record-image__hover {
-  width: 100%;
-  top: 0;
-  left: 0;
-  position: absolute;
-  display: none;
 }
 
 #store-name {

@@ -1,14 +1,22 @@
-var recordPlayerDiv = document.getElementById("record-player-div");
-var recordWithPlayer= document.getElementById("record-image__hover");
-
-recordPlayerDiv.onmouseover = function() {
-  recordWithPlayer.style.display = "block";
+// hovering over image changes the image
+function showRecord(index) {
+  var indexString = index.toString();
+  var recordPlayerWithoutRecordID = "record-player-without-record" + "-" + indexString;
+  console.log(recordPlayerWithoutRecordID);
+  var recordPlayerWithoutRecord = document.getElementById(recordPlayerWithoutRecordID);
+  recordPlayerWithoutRecord.onmouseover = function() {
+    this.src = "img/recordwithplayer.png";
+  }
+  recordPlayerWithoutRecord.onmouseout = function() {
+    this.src = "img/recordplayer.png";
+  }
 }
 
-recordPlayerDiv.onmouseout = function() {
-  recordWithPlayer.style.display = "none";
+for (var i = 0; i < 7; i++) {
+  showRecord(i);
 }
 
+// smooth scrolling
 $(document).ready(function(){
 	$('a[href^="#"]').on('click',function (e) {
 	    e.preventDefault();
