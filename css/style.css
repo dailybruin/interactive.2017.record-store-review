@@ -7,27 +7,55 @@ body {
   background-image: url("../img/woodgrain.png");
 }
 
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 .landing-page {
-  margin: 0 auto;
+  height: 100%;
 }
 
 #banner {
+  margin: 0 auto;
   width: 100%;
 }
 
 .description {
   text-align: center;
   color: white;
+  background-color: rgba(0, 0, 0, 0.50);
+  margin-top: 8%;
+  padding: 10px;
+  font-family: 'Scope One', serif;
+  font-size: 20px;
 }
 
 .scroll-button {
   text-align: center;
+  color: white;
+}
+
+.stores {
+  height: 100%:
 }
 
 .record-image {
   width: 100%;
 }
 
+.store-link {
+  color: white;
+}
+
+.store-link:hover {
+  color: white;
+}
+
 #store-name {
   text-align: center;
+  font-family: 'Scope One', serif;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.50);
 }

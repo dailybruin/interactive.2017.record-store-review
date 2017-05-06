@@ -5,10 +5,10 @@ function showRecord(index) {
   console.log(recordPlayerWithoutRecordID);
   var recordPlayerWithoutRecord = document.getElementById(recordPlayerWithoutRecordID);
   recordPlayerWithoutRecord.onmouseover = function() {
-    this.src = "img/recordwithplayer.png";
+    this.src = "img/recordwithplayerresized.png";
   }
   recordPlayerWithoutRecord.onmouseout = function() {
-    this.src = "img/recordplayer.png";
+    this.src = "img/recordplayerresized.png";
   }
 }
 

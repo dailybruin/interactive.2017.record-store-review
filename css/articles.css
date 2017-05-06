@@ -17,30 +17,37 @@ body {
 
 .headline {
   text-align: center;
+  font-family: 'Scope One', serif;
 }
 
 .home {
   text-align: center;
+  font-family: 'Scope One', serif;
 }
 
 .date {
   text-align: center;
+  font-family: 'Scope One', serif;
 }
 
 .author {
   text-align: center;
+  font-family: 'Scope One', serif;
 }
 
 .image-caption {
   text-align: center;
+  font-family: 'Scope One', serif;
 }
 
 .article-content {
   padding: 10px;
+  font-family: 'Scope One', serif;
 }
 
 .credit {
   background-color: lightgray;
   text-align: center;
   width: 100%;
+  font-family: 'Scope One', serif;
 }
