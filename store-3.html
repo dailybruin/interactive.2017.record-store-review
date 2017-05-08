@@ -1,0 +1,55 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  <title>Record Store Review | Daily Bruin</title>
+  <link href="https://fonts.googleapis.com/css?family=Scope+One" rel="stylesheet">
+  <!-- Bootstrap CDN -->
+  <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <!-- Our CSS -->
+  <link type="text/css" rel="stylesheet" href="css/articles.css" />
+</head>
+<body>
+  <div id="record-store-review-3">
+  </div>
+  <script id="handlebars-articles" type="text/x-handlebars-template">
+    <div class="container">
+      <div class="row">
+        <h1 class="headline">{{{gsx$headline.$t}}}</h1>
+      </div>
+
+      <div class="row">
+        <p class="home"><a href="index.html">Back to Home Page</a></p>
+        <p class="date">{{{gsx$date.$t}}}</p>
+        <p class="author">By {{{gsx$author.$t}}}</p>
+      </div>
+
+      <div class="row">
+        <img class="main-image" src="{{gsx$mainimageurl.$t}}"/>
+        <div class="image-caption">{{{gsx$imagecaption.$t}}}</div>
+      </div>
+
+      <div class="row">
+        <div class="article-content">
+            {{{gsx$articlecontent.$t}}}
+        </div>
+      </div>
+
+      <p class="credit">
+        Website created and designed by <a href="https://github.com/paulinalei" target="_blank">Paulina Lei</a>.
+      </p>
+    </div>
+  </script>
+
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Bootstrap JS CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!-- Handlebars CDN -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+  <!-- Our JS -->
+  <script src="js/template.js"></script>
+  <script>
+    articles(1);
+  </script>
+</body>
+</html>
