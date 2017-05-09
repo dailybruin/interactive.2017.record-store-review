@@ -2,7 +2,6 @@
 function showRecord(index) {
   var indexString = index.toString();
   var recordPlayerWithoutRecordID = "record-player-without-record" + "-" + indexString;
-  console.log(recordPlayerWithoutRecordID);
   var recordPlayerWithoutRecord = document.getElementById(recordPlayerWithoutRecordID);
   recordPlayerWithoutRecord.onmouseover = function() {
     this.src = "img/recordwithplayerresized.png";
