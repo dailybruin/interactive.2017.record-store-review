@@ -71,9 +71,10 @@ body {
   display:block;
 }
 
-.date {
+.rating{
   text-align: center;
   font-family: 'Scope One', serif;
+  padding: 1%;
 }
 
 .author {

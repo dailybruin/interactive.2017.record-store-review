@@ -35,3 +35,29 @@ window.onclick = function(event) {
     }
   }
 }
+
+$(document).ready(function() {
+  // ratings
+  Handlebars.registerHelper('times', function(n, block) {
+      var accum = '';
+      if (n == 0.5 || n == 1.5 || n == 2.5 || n == 3.5 || n == 4.5) {
+        for(var i = 0; i < n - 1; ++i) {
+            accum += block.fn('<img src="http://dailybruin.com/images/paws/full.png" /> ');
+        }
+        accum += block.fn('<img src="http://dailybruin.com/images/paws/half.png" class="list-rating" />');
+      } else {
+        for(var i = 0; i < n; ++i) {
+            accum += block.fn('<img src="http://dailybruin.com/images/paws/full.png"  class="list-rating"/>');
+        }
+      }
+
+      if (n == 0.5 || n == 1.5 || n == 2.5 || n == 3.5 || n == 4.5) {
+        for(i = 0; i < 5 - n - 1; i ++)
+            accum += block.fn('<img src="http://dailybruin.com/images/paws/blank.png"  class="list-rating" />');
+      } else {
+        for(i = 0; i < 5 - n; i ++)
+            accum += block.fn('<img src="http://dailybruin.com/images/paws/blank.png"  class="list-rating" />');
+      }
+      return accum;
+    });
+});

@@ -33,7 +33,11 @@
         </div>
         </br>
         <p class="author">By {{{gsx$author.$t}}}</p>
-        <p class="date">{{{gsx$date.$t}}}</p>
+        <div class="rating">
+          {{#times this.gsx$rating.$t}}
+            {{{this}}}
+          {{/times}}
+        </div>
       </div>
 
       <div class="row">
