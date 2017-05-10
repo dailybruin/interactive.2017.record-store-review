@@ -25,6 +25,51 @@ body {
   font-family: 'Scope One', serif;
 }
 
+.dropbtn {
+    background-color: lightgray;
+    color: black;
+    width: 30%;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Scope One', serif;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: gray;
+}
+
+.dropdown {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: rgba(249, 249, 249, 1);
+    font-family: 'Scope One', serif;
+    width: 30%;
+    margin: 0 auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 2px 2px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: rgba(241, 241, 241, 1);
+}
+
+.show {
+  display:block;
+}
+
 .date {
   text-align: center;
   font-family: 'Scope One', serif;
@@ -33,6 +78,12 @@ body {
 .author {
   text-align: center;
   font-family: 'Scope One', serif;
+}
+
+.main-image {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
 }
 
 .image-caption {

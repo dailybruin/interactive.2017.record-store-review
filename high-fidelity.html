@@ -9,7 +9,7 @@
   <link type="text/css" rel="stylesheet" href="css/articles.css" />
 </head>
 <body>
-  <div id="record-store-review-4">
+  <div id="record-store-review-0">
   </div>
   <script id="handlebars-articles" type="text/x-handlebars-template">
     <div class="container">
@@ -18,7 +18,19 @@
       </div>
 
       <div class="row">
-        <p class="home"><a href="index.html">Back to Home Page</a></p>
+        <div class="dropdown">
+          <button onclick="showMenu()" class="dropbtn">Menu</button>
+          <div id="menu" class="dropdown-content">
+            <a href="index.html">Home</a>
+            <a href="high-fidelity.html">High-Fidelity</a>
+            <a href="headline-records.html">Headline Records</a>
+            <a href="record-parlour.html">Record Parlour</a>
+            <a href="record-collector.html">Record Collector</a>
+            <a href="revolution-records.html">Revolution Records L.A.</a>
+            <a href="record-surplus.html">Record Surplus</a>
+            <a href="amoeba-music.html">Amoeba Music</a>
+          </div>
+        </div>
         <p class="date">{{{gsx$date.$t}}}</p>
         <p class="author">By {{{gsx$author.$t}}}</p>
       </div>
@@ -49,7 +61,7 @@
   <!-- Our JS -->
   <script src="js/template.js"></script>
   <script>
-    articles(4);
+    articles(0);
   </script>
 </body>
 </html>
