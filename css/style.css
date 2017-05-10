@@ -127,3 +127,32 @@ body {
   font-family: 'Scope One', serif;
   border-radius: 3px;
 }
+
+/* media queries */
+@media screen and (max-width: 500px) and (min-width: 411px ){
+  .description {
+    font-size: 14px;
+    height: 90%;
+  }
+}
+
+@media screen and (max-width: 410px) and (min-width: 380px ){
+  .description {
+    font-size: 13px;
+    height: 90%;
+  }
+}
+
+@media screen and (max-width: 379px) and (min-width: 321px ){
+  .description {
+    font-size: 12px;
+    height: 90%;
+  }
+}
+
+@media screen and (max-width: 320px) and (min-width: 315px ){
+  .description {
+    font-size: 10px;
+    height: 90%;
+  }
+}
