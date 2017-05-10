@@ -131,7 +131,7 @@ body {
 /* media queries */
 @media screen and (max-width: 500px) and (min-width: 411px ){
   .description {
-    font-size: 14px;
+    font-size: 13px;
     height: 90%;
   }
 }
